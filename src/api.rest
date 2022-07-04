@@ -1,0 +1,29 @@
+###
+GET http://localhost:3000/empleados
+
+###
+POST http://localhost:3000/empleados
+Content-Type: application/json
+
+{
+    "nombre": "ATrejo",
+    "puesto": "Director",
+    "email": "etrejo01@gmail.com",
+    "sueldo": 20000
+}
+
+
+###
+GET http://localhost:3000/empleados/62bf048c41807020875ca19f
+
+###
+DELETE http://localhost:3000/empleados/62bf048c41807020875ca19f
+
+###
+PUT http://localhost:3000/empleados/62becbfac63f84d5359eaf48
+Content-Type: application/json
+
+{
+    "puesto":"Gerente",
+    "sueldo":25000
+}
