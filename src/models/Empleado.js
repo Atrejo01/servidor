@@ -8,13 +8,6 @@ const empleadoSchema= new Schema({
 },{
     timestamps: true,
     versionKey: false
-})
+});
+
 module.exports= model('Empleado',empleadoSchema);
-// const empleado= {
-//     id: number,
-//     nombre: string,
-//     puesto: string,
-//     email: string,
-//     sueldo: number
-// }
-// module.exports= empleado;

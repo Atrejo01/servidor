@@ -6,24 +6,23 @@ POST http://localhost:3000/empleados
 Content-Type: application/json
 
 {
-    "nombre": "ATrejo",
-    "puesto": "Director",
-    "email": "etrejo01@gmail.com",
-    "sueldo": 20000
+    "nombre":"Paco",
+    "puesto":"Jefe de Sistemas",
+    "email":"paco@disney.com",
+    "sueldo": 15000
 }
 
+###
+DELETE http://localhost:3000/empleados/62c3301c2e06be14b198b8c2
 
 ###
-GET http://localhost:3000/empleados/62bf048c41807020875ca19f
+GET http://localhost:3000/empleados/62c32f9b2e06be14b198b8bd
 
 ###
-DELETE http://localhost:3000/empleados/62bf048c41807020875ca19f
-
-###
-PUT http://localhost:3000/empleados/62becbfac63f84d5359eaf48
+PUT http://localhost:3000/empleados/62c3301c2e06be14b198b8c2
 Content-Type: application/json
 
 {
-    "puesto":"Gerente",
-    "sueldo":25000
+    "puesto":"Programador",
+    "sueldo":18000
 }
