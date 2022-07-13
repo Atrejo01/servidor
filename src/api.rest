@@ -1,28 +1,28 @@
 ###
-GET http://localhost:3000/empleados
+GET http://localhost:3000/empleados/
 
 ###
 POST http://localhost:3000/empleados
 Content-Type: application/json
 
 {
-    "nombre":"Paco",
-    "puesto":"Jefe de Sistemas",
-    "email":"paco@disney.com",
-    "sueldo": 15000
+    "nombre":"Pedro Picapiedra",
+    "puesto":"Programador Sr.",
+    "email":"pedropicapiedra@disney.com",
+    "sueldo": 15
 }
 
 ###
-DELETE http://localhost:3000/empleados/62c3301c2e06be14b198b8c2
+DELETE http://localhost:3000/empleados/8
 
 ###
-GET http://localhost:3000/empleados/62c32f9b2e06be14b198b8bd
+GET http://localhost:3000/empleados/4
 
 ###
-PUT http://localhost:3000/empleados/62c3301c2e06be14b198b8c2
+PUT http://localhost:3000/empleados/17
 Content-Type: application/json
 
 {
-    "puesto":"Programador",
-    "sueldo":18000
+    "puesto":"Gerente de Sistemas.",
+    "sueldo":50000
 }
